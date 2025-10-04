@@ -19,7 +19,6 @@ Bu kapsamda proje, aşağıdaki kazanımları hedeflemektedir:
 - Veri ekleme, güncelleme ve silme işlemlerini uygulamak,  
 - Raporlama ve analiz sorguları çalıştırmak,  
 - Karmaşık SQL sorgularında pratik yaparak ustalaşmak.
-Kısacası, bu proje hem teorik bilgiyi pratiğe dökmeyi hem de gerçek bir senaryoya uygun veritabanı sistemi kurmayı amaçlar.
 
 
 ---
