@@ -23,7 +23,7 @@ Kısacası, bu proje hem teorik bilgiyi pratiğe dökmeyi hem de gerçek bir sen
 ---
 
 ## Senaryo  
-Bir online alışveriş platformunda **müşteri, ürün, sipariş, kategori, ödeme, satıcı** gibi veriler yönetilmek zorundadır.  
+Bir online alışveriş platformunda **müşteri, ürün, sipariş, sipariş detay, kategori, ödeme, satıcı** gibi veriler yönetilmek zorundadır.  
 Öğrencilerden, bu sistemi **sıfırdan tasarlamaları ve SQL ile yönetmeleri** istenir.  
 
 ---
@@ -58,13 +58,13 @@ Aşağıda sistemin temel ilişkilerini gösteren ER diyagramı bulunmaktadır:
 2.  **Bu projeyi klonlayın:**
 
     ```bash
-    git clone https://github.com/gulcinyzglc/DigitalMarketDB_SQL_bitirme_projesi
+    git clone https://github.com/gulcinyzglc/DigitalMarketDB-SQL-bitirme-projesi
     ```
 
 3.  **Proje klasörüne gidin:**
 
     ```bash
-    cd DigitalMarketDB
+    cd DDigitalMarketDB-SQL-bitirme-projesi
     ```
     
 4.  Tabloları oluşturmak için `create_tables.sql` dosyasını çalıştırın.
