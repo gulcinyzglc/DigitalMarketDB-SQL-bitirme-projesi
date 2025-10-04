@@ -11,8 +11,7 @@
 4. [Özellikler](#özellikler)  
 5. [ER Diyagramı](#er-diyagramı)  
 6. [Tasarım Süreci](#tasarım-süreci)  
-7. [Karşılaşılan Sorunlar ve Çözümler](#karşılaşılan-sorunlar-ve-çözümler)  
-8. [Kullanım](#kullanım)  
+7. [Kullanım](#kullanım)  
 
 ---
 
@@ -23,7 +22,6 @@ Bu kapsamda proje, aşağıdaki kazanımları hedeflemektedir:
 - Veri ekleme, güncelleme ve silme işlemlerini uygulamak,  
 - Raporlama ve analiz sorguları çalıştırmak,  
 - Karmaşık SQL sorgularında pratik yaparak ustalaşmak.
-- 
 Kısacası, bu proje hem teorik bilgiyi pratiğe dökmeyi hem de gerçek bir senaryoya uygun veritabanı sistemi kurmayı amaçlar.
 
 
@@ -109,25 +107,13 @@ Aşağıda sistemin temel ilişkilerini gösteren ER diyagramı bulunmaktadır:
 
 ---
 
-## Karşılaşılan Sorunlar ve Çözümler  
-- **Sorun:** Tabloların ilişkilerini kurarken `Siparis` ve `Siparis_Detay` arasındaki ilişkiyi doğru kurmak zor oldu.  
-  - **Çözüm:** Bir siparişin birden fazla ürün içerebileceğini göstermek için ayrı bir **Siparis_Detay** tablosu eklendi.  
-
-- **Sorun:** Stok güncellemeleri sırasında yanlış ürünlerin güncellenmesi riski vardı.  
-  - **Çözüm:** `WHERE` koşulları dikkatli yazılarak yalnızca ilgili ürünlerin güncellenmesi sağlandı.  
-
-- **Sorun:** SQL sorgularında performans problemleri yaşandı.  
-  - **Çözüm:** Sık kullanılan kolonlara **index** eklenmesiyle performans artırıldı.  
-
----
-
 ## Kullanım  
 1. Bu projeyi klonlayın:  
    ```bash
    git clone https://github.com/gulcinyzglc/DigitalMarketDB.git
    
 2.Proje klasörüne gidin:
- cd DigitalMarketDB
+     ❯ cd DigitalMarketDB 
 
 3.SQL Server veya uyumlu bir veritabanı aracını açın.
 4.Tabloları oluşturmak için create_tables.sql dosyasını çalıştırın.
