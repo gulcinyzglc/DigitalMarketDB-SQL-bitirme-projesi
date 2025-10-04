@@ -58,7 +58,7 @@ Aşağıda sistemin temel ilişkilerini gösteren ER diyagramı bulunmaktadır:
 2.  **Bu projeyi klonlayın:**
 
     ```bash
-    git clone [https://github.com/gulcinyzglc/DigitalMarketDB.git](https://github.com/gulcinyzglc/DigitalMarketDB.git)
+    git clone https://github.com/gulcinyzglc/DigitalMarketDB_SQL_bitirme_projesi
     ```
 
 3.  **Proje klasörüne gidin:**
