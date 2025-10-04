@@ -111,9 +111,10 @@ Aşağıda sistemin temel ilişkilerini gösteren ER diyagramı bulunmaktadır:
 1. Bu projeyi klonlayın:  
    ```bash
    git clone https://github.com/gulcinyzglc/DigitalMarketDB.git
-   
-2.Proje klasörüne gidin:
-     ❯ cd DigitalMarketDB 
+
+2. Proje klasörüne gidin:
+
+  ` cd DigitalMarketDB`
 
 3.SQL Server veya uyumlu bir veritabanı aracını açın.
 4.Tabloları oluşturmak için create_tables.sql dosyasını çalıştırın.
