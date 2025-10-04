@@ -131,7 +131,7 @@ Aşağıda sistemin temel ilişkilerini gösteren ER diyagramı bulunmaktadır:
 6.  Raporlama ve analiz yapmak için `queries.sql` dosyasındaki sorguları çalıştırın.
 7.  ER diyagramını da inceleyerek tablo ilişkilerini görselleştirebilirsiniz.
    
-##Sonuç
+## Sonuç
 Bu proje sayesinde, gerçek bir e-ticaret platformunun temel veritabanı tasarımı başarıyla uygulanmıştır. Tablolar oluşturulmuş, örnek veriler eklenmiş ve farklı SQL sorguları ile raporlama ve analizler yapılmıştır. Ayrıca, ilişkiler ve veri bütünlüğü test edilerek veritabanı yönetimi konusunda pratik kazanılmıştır.
 
 
